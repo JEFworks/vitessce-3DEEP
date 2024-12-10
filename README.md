@@ -1,5 +1,10 @@
 ## To test
 
+0. Misc updates
+
+Update defaults in public/`manifest.json`
+Change favicons and logos as needed
+
 1. Install dependencies (done once)
 
 ```
