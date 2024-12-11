@@ -201,7 +201,8 @@ library(vitessceR)
 
 ## need to launch python server
 ## http-server ./ --cors -p 8000
-base_url <- "http://localhost:8000/"
+#base_url <- "http://localhost:8000/"
+base_url <- "https://raw.githubusercontent.com/JEFworks/vitessce-3DEEP/refs/heads/main/"
 
 # Create Vitessce view config
 vc <- VitessceConfig$new(schema_version = "1.0.16", name = "3DEEP of Skin v2")
