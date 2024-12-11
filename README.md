@@ -22,9 +22,19 @@ Open http://localhost:3000 to view it in your browser.
 npm start
 ```
 
-Note, due to caching, seems like another host is needed to serve files:
+Another host is needed to serve files from the `config.json` base url. For example, if in R:
+```
+base_url <- "http://localhost:8000/"
+```
+
+Then a localhost server needs to be launched:
 ```
 http-server ./ --cors -p 8000
+```
+
+Alternatively push files to AWS or Github and reference them directly:
+```
+base_url <- "https://raw.githubusercontent.com/JEFworks/vitessce..."
 ```
 
 3. Build and rename
